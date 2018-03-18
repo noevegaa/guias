@@ -61,15 +61,16 @@ public class Poo2 {
             
         }
         public void mostrar(){
+            String cadena="";
             if(ordenado==true){
             System.out.println("ORDENADO:");
             }else if(ordenado==false){
                  System.out.println("SIN ORDENAR");
             }
             for(int i=0;i<10;i++){
-               System.out.print(vector[i]+" ");
+               cadena=cadena+vector[i]+" ";
            }
-            System.out.println();
+            JOptionPane.showMessageDialog(null,cadena);
         }
 }
     

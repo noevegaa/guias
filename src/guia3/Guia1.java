@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author josen
  */
-public class Guia1 {
+public class Guia1 extends Menu {
 
     
   void guia(){

@@ -19,7 +19,7 @@ public class Guia3 {
     }
     
    MetodosGuia4 meto=new MetodosGuia4();
-    
+    int a=0;
          
      
 }

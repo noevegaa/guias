@@ -118,8 +118,9 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnGuia1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuia1ActionPerformed
-        Guia1 uno=new Guia1();
-        uno.guia();
+        jfGuia1 uno=new jfGuia1();
+        uno.setVisible(true);
+        
         dispose();
         
     }//GEN-LAST:event_btnGuia1ActionPerformed
