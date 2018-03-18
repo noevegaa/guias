@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="369" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="260" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic UI" size="8" style="2"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="1.&#xbf;Qu&#xe9; es la programaci&#xf3;n orientada a objetos (POO)?&#xa;Es un paradigma de programaci&#xf3;n que viene a innovar la forma de obtener resultados. Los objetos manipulan los datos de entrada para la obtenci&#xf3;n de datos de salida espec&#xed;ficos, donde cada objeto ofrece una funcionalidad especial.&#xa;&#xa;2.&#xbf;Cu&#xe1;les son los conceptos y nociones b&#xe1;sicas de la POO?&#xa;3.Explique de manera clara que es:&#xa;&#xa;-Polimorfismo: &#xa;Se refiere a la propiedad por la que es posible enviar mensajes sint&#xe1;cticamente iguales a objetos de tipos distintos. El &#xfa;nico requisito que deben cumplir los objetos que se usan de manera polim&#xf3;rfica es saber responder al mensaje que se les env&#xed;a.&#xa;                                                                                        &#xa;-Abstracci&#xf3;n:&#xa;Consiste en aislar un elemento aislador su programa inv&#xe1;lido que lo acompa&#xf1;a.&#xa;Expresa las caracter&#xed;sticas esenciales de un objeto, las cuales distinguen al objeto de los dem&#xe1;s.&#xa;&#xa;-Herencia:&#xa;&#xa;Un tipo de objeto de alto nivel puede especializarse en tipos de objeto de bajo nivel. Un tipo de objetos puede tener subtipos. Por ejemplo, el tipo de objeto persona puede tener subtipos estudiante y empleado. A su vez, el tipo de objeto estudiante puede tener como subtipo estudiante de pregrado y estudiante de postgrado, mientras que empleado puede tener como subtipo a acad&#xe9;mico y administrativo. Existe de este modo una jerarqu&#xed;a  de tipos, subtipos, subsubtipos, etc.  &#xa;&#xa;-Encapsulamiento:&#xa;El empaque conjunto de datos y m&#xe9;todo se llama encapsulado. El objeto esconde sus datos de los dem&#xe1;s objetos y permite el acceso a los datos mediante sus propios m&#xe9;todos.&#xa;&#xa;4.&#xbf;Por qu&#xe9; es preferible usar POO a programaci&#xf3;n estructurada?&#xa;Es preferible porque Java posee:&#xa;Lenguaje simple, Lenguaje orientado a objetos, Aplicaciones distribuidas, Interpretado y compilado y es segura.&#xa;&#xa;5.&#xbf;Qu&#xe9; ventajas posee usar JAVA  en el desarrollo de aplicaciones?&#xa;&#xa;&#xa;6.Desglose cada uno de los siguientes conceptos en el &#xe1;mbito de la POO:&#xa;-Clase:&#xa;Esta se refiere a la implantaci&#xf3;n en software de un tipo de objeto.&#xa;El tipo de objeto es una noci&#xf3;n de concepto.&#xa;&#xa;&#xa;&#xa;-M&#xe9;todo:&#xa;Los m&#xe9;todos especifican la forma en que se controlan los datos de un objeto. Los m&#xe9;todos en un tipo de objeto solo hacen referencia a la estructura de datos de ese tipo de objeto.  &#xa;-Constructor:&#xa;Es u m&#xe9;todo especial de una clase que se llama autom&#xe1;ticamente siempre que se declara un objeto de esa clase. Su funci&#xf3;n es inicializar el objeto y sirve para asegurarnos que los objetos siempre contengan valores v&#xe1;lidos. &#xa;-Librer&#xed;a:&#xa;Es un conjunto de clases que poseen una serie de m&#xe9;todos y atributos. Lo realmente interesante de estas librer&#xed;as para JAVA es que facilitan muchas operaciones.&#xa;-Registro:&#xa;&#xa;-Dato:&#xa;Son los tipos de datos primitivos ( int, boolean&#x2026;), y objeto( String, array o arreglo&#x2026;).&#xa;-Valor:&#xa;Contenido que se mueve a trav&#xe9;s de las variables utilizadas.&#xa;&#xa;7.&#xbf;Cu&#xe1;les son las caracter&#xed;sticas principales de los siguientes tipos de datos? (Limitaciones, posibilidades, uso, etc.)&#xa;-int.&#xa;-double&#xa;-String&#xa;-Object&#xa;-Char&#xa;&#xa;8.&#xbf;Qu&#xe9; es la clase math en JAVA?&#xa;En general es la que nos aporta todas las operaciones matem&#xe1;ticas.&#xa;9.&#xbf;Qu&#xe9; es una base de datos?&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

@@ -36,6 +36,7 @@ public class Menu extends javax.swing.JFrame {
         btnGuia2 = new javax.swing.JButton();
         btnGuia3 = new javax.swing.JButton();
         btnSalir = new javax.swing.JButton();
+        btnTe = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -81,6 +82,16 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
+        btnTe.setBackground(new java.awt.Color(0, 102, 255));
+        btnTe.setFont(new java.awt.Font("Britannic Bold", 0, 18)); // NOI18N
+        btnTe.setForeground(new java.awt.Color(255, 255, 255));
+        btnTe.setText("Teoria");
+        btnTe.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTeActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -94,7 +105,9 @@ public class Menu extends javax.swing.JFrame {
                     .addComponent(btnGuia3, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(82, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap()
+                .addComponent(btnTe)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnSalir)
                 .addGap(33, 33, 33))
         );
@@ -107,11 +120,13 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(btnGuia1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(btnGuia2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
+                .addGap(32, 32, 32)
                 .addComponent(btnGuia3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
-                .addComponent(btnSalir)
-                .addGap(25, 25, 25))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSalir)
+                    .addComponent(btnTe, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(9, 9, 9))
         );
 
         pack();
@@ -126,8 +141,8 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_btnGuia1ActionPerformed
 
     private void btnGuia2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuia2ActionPerformed
-        Poo2 dos=new Poo2();
-        dos.Guia2();
+        jfGuia2 dos=new jfGuia2();
+        dos.setVisible(true);
         dispose();
     }//GEN-LAST:event_btnGuia2ActionPerformed
 
@@ -139,6 +154,11 @@ public class Menu extends javax.swing.JFrame {
         jfGuia3 tres=new jfGuia3();
         tres.setVisible(true);
     }//GEN-LAST:event_btnGuia3ActionPerformed
+
+    private void btnTeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTeActionPerformed
+        jfTeoria teo=new jfTeoria();
+                teo.setVisible(true);
+    }//GEN-LAST:event_btnTeActionPerformed
 
     /**
      * @param args the command line arguments
@@ -180,6 +200,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton btnGuia2;
     private javax.swing.JButton btnGuia3;
     private javax.swing.JButton btnSalir;
+    private javax.swing.JButton btnTe;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

@@ -128,6 +128,8 @@ public class jfGuia2 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Menu men=new Menu();
         men.setVisible(true);
+     dispose();
+     
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
